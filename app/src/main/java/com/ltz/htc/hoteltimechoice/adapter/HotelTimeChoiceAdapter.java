@@ -70,7 +70,7 @@ public class HotelTimeChoiceAdapter extends RecyclerView.Adapter<ViewHolder>{
                     @Override
                     public void onClick(View view) {
                         if(count >= 2){
-                            Toast.makeText(context,"你点了太多啦吧",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context,"你点了太多啦",Toast.LENGTH_SHORT).show();
                             return;
                         }
 
