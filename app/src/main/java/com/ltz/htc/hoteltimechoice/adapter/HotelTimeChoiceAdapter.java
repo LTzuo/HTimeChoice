@@ -78,7 +78,7 @@ public class HotelTimeChoiceAdapter extends RecyclerView.Adapter<ViewHolder>{
                             text1 = mDatas[position];
                         } else if (count == 1) {
                             if (Integer.parseInt(text1) >= Integer.parseInt(mDatas[position])) {
-                                Toast.makeText(context, "结束时间请大于开始时间", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "结束时间应大于开始时间", Toast.LENGTH_SHORT).show();
                                 return;
                             }
                             text2 = mDatas[position];
